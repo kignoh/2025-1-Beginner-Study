@@ -72,4 +72,5 @@ Git이 추적 중인 파일은 Git이 버전 관리 대상으로 이미 추가�
 Git이 아직 관리하지 않는 파일로, 커밋 대상에 포함되지 않습니다.
 
 예를 들어, README.md 파일을 처음 생성하고 git add README.md로 추가한 후 git commit을 하면 이 파일은 추적 상태가 됩니다. 이후 파일을 수정하면 Git은 이 변경 사항을 추적하지만, 새로운 파일이나 추적되지 않은 파일은 별도로 git add를 해줘야 커밋할 수 있습니다.   
-   
+    
+16. git push origin docs/1-readme - main branch가 아니라 docs/1-readme 브랜치로 변경해줘야한다. 이렇게 push를 하고난뒤에 github repository에 들어가보면 아무것도 안 보이는데 이때 윗 쪽에 main으로 선택된 branch를 docs/1-readme로 변경해주면 된다.   
